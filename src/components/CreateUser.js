@@ -14,7 +14,7 @@ export default function ListUser() {
       event.preventDefault();
 
       //Maakt verbinding met de database
-      axios.post('http://localhost:9999/api/user/save', inputs);
+      axios.post('http://localhost:8888/api/user/save', inputs);
       console.log(inputs);
     }
   return (
